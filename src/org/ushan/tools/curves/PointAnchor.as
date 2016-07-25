@@ -20,6 +20,7 @@ package org.ushan.tools.curves
 			addChild(shape);
 			shape.graphics.beginFill(0xff0000, 0.7);
 			shape.graphics.drawCircle(0, 0, 4);
+			trace("-");
 		}
 	}
 }
