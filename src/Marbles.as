@@ -2,7 +2,8 @@ package
 {
 	import flash.display.GradientType;
 	import flash.display.Loader;
-	import flash.display.Sprite;
+import flash.display.Shape;
+import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
@@ -46,9 +47,14 @@ package
 		{
 			init();
 
-			trace("2222");
+			var s:Shape = new Shape();
+			test();
 		}
-		
+
+		private function test():void
+		{
+
+		}
 		//----------------------------------------------------------------------
 		//
 		//	private methods
